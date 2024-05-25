@@ -1,0 +1,2 @@
+# run the following python command from your virtual environment
+pip3 freeze > requirements.txt

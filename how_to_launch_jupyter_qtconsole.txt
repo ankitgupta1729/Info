@@ -1,0 +1,5 @@
+QTConsole is a graphical interface of jupyter to run python python commands.
+
+>>> pip install pyqt5-tools
+
+>>> jupyter qtconsole

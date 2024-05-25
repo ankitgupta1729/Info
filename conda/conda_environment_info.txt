@@ -1,0 +1,43 @@
+1. To create a virtual environment using conda:
+
+A. conda create -p myenv python=3.6 -y 
+
+(or)
+
+B. conda create --name myenv python=3.6 -y // this myenv folder is stored in anaconda3
+
+
+2. Activate virtual Environment:
+
+A. conda activate myenv/
+
+(or)
+
+B. activate myenv
+
+
+3. Information about conda envioronments:
+
+conda info
+
+
+4. List all the conda environments:
+
+conda env list
+
+
+5. Delete a conda environment
+
+A. conda deactivate //deactivating the current environment
+
+B. conda remove -p  C:\Users\ankit19.gupta\ankit\ankit\myenv --all // remove the myenv environment and --all removes all the packages and -p stands for path where the environemnt is created
+
+
+6. delete  a directory in windows:
+
+rmdir /s myenv 
+
+
+7. Install Python packages:
+
+pip install -r requirements.txt // requirements.txt is having the name of python packages 
